@@ -5,7 +5,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 app.get("/", function(req, res){
-    res.sendFile(__dirname + '/index.html');
+    res.sendFile(__dirname + '/public/index.html');
 })
 
 io.on('connection', function(socket){
